@@ -9,7 +9,18 @@ if "%1"=="" (
 
 :: edit accordingly!
 set "source=C:\Users\YOURUSERNAME\Zomboid\Saves\Sandbox\%1"
-set "destination=C:\Users\YOURUSERNAME\Zomboid\zomboid-snapshots"
+set "baseDest=C:\Users\YOURUSERNAME\Zomboid\zomboid-snapshots"
+
+set "counter=1"
+
+:loop
+if exist "%baseDest%\%counter%" (
+    set /a counter+=1
+    goto loop
+)
+
+set "destination=%baseDest%\%counter%"
+mkdir "%destination%"
 
 set "start=%time%"
 
