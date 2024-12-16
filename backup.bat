@@ -9,7 +9,7 @@ if "%1"=="" (
 
 :: edit accordingly!
 set "source=C:\Users\YOURUSERNAME\Zomboid\Saves\Sandbox\%1"
-set "baseDest=C:\Users\YOURUSERNAME\Zomboid\zomboid-snapshots"
+set "baseDest=C:\Users\YOURUSERNAME\Zomboid\backups"
 
 set "counter=1"
 
