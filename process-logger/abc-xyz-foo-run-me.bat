@@ -1,3 +1,4 @@
 @echo off
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\elias\Desktop\backgr-log\abc-xyz-foo.ps1"
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\OWNUSERNAMEHERE\Desktop\process_logger\abc-xyz-foo.ps1"
+
 pause
