@@ -1,0 +1,14 @@
+instructions:
+
+
+1.	save folder on desktop.
+
+2.	open .bat in texteditor/etc
+
+3. 	replace USERNAMEHERE with your username on your desktop
+
+4.	run bat file
+
+5.	read output log stored in C:\Program Files\process_log.csv after its run (base set for hour)
+
+enjoy!
